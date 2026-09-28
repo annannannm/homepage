@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: light blue;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  padding: 60px 20px;
+  background: white;
+}
+
+#butt {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  color: blue;
+  border: 1px dashed blue;
+  text-decoration: none;
+}
+
+.gridbox {
+  display: flow-root;
+  padding: 20px;
+  background-color: white;
+}
+
+.content {
+  float: left;
+  width: 31%;
+  margin: 1%;
+  box-sizing: border-box;
+  background: blue;
+  color: white;
+  padding: 20px;
+}
